@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "modman.app",
+  "description": "",
+  "version": "0.0.1",
+  "license": "GPLv3",
+  "author": {
+    "name": "Julian Xhokaxhiu",
+    "url": "https://julianxhokaxhiu.com/"
+  },
+  "scripts": {
+    "deploy": "cp -rf src .dist",
+    "start": "http-server .dist"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
